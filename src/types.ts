@@ -1,8 +1,25 @@
 export interface YouTubeVideo {
-  id: { videoId: string };
+  id: string;
   snippet: {
     title: string;
-    thumbnails: { medium: { url: string } };
-    channelTitle:string
+    description: string;
+    channelId: string;
+    channelTitle: string;
+    publishedAt: string;
+    thumbnails: {
+      default: { url: string };
+      medium: { url: string };
+      high: { url: string };
+      standard?: { url: string };
+      maxres?: { url: string };
+    };
+  };
+  contentDetails: {
+    duration: string;
+  };
+  statistics?: {
+    viewCount?: string;
+    likeCount?: string;
+    commentCount?: string;
   };
 }
