@@ -1,10 +1,10 @@
 {
   "expo": {
     "name": "DasTube",
-    "slug": "DasTube",
+    "slug": "client",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./src/assets/panther.png",
+    "icon": "./src/assets/panther-sm.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -28,7 +28,7 @@
       [
         "expo-splash-screen",
         {
-          "image": "./src/assets/panther.png",
+          "image": "./src/assets/panther-sm.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -43,7 +43,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "545ca520-aba8-4e2e-8319-5112c0af2087"
+        "projectId": "cdc43ece-f702-4db6-8a24-8dd8040e53a3"
       }
     }
   }
